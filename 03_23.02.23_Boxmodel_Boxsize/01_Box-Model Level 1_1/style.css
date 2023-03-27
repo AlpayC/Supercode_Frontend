@@ -1,0 +1,13 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: content-box;
+}
+p {
+    background-color: aqua;
+    width: 200px;
+    padding:25px;
+    border: 25px solid black;
+    margin: 25px;
+    margin: auto;
+}

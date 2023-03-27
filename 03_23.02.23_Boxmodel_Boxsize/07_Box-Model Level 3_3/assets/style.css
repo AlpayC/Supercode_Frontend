@@ -1,0 +1,97 @@
+@font-face {
+    font-family: poppins;
+    src: url(./fonts/Poppins.ttf);
+}
+@font-face {
+    font-family: cinzel;
+    src: url(./fonts/Cinzel.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+nav img{
+    height: 30px;
+    width: 70px;
+}
+nav a{
+    font-family: cinzel;
+    color: black;
+    text-decoration: none;
+    margin-right: 50px;
+    text-align: center;
+
+}
+h1 {
+    font-family: cinzel;
+    font-size: 50px;
+    font-weight: 700;
+    margin:auto;
+    padding:300px;
+    color: white;
+}
+h2 {
+    font-family: cinzel;
+    font-size: 30px;
+    font-weight: 700;
+    margin:86px 0 41px 0;
+    color: rgb(0, 0, 0);
+    
+}
+header section:first-of-type{
+    text-align: center;
+    background: url("https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80") center no-repeat;
+    background-size: cover;
+    width:100%;
+    height:50vh;
+}
+main section:first-of-type{
+    text-align: center;
+    margin-bottom: 70px;
+}
+main section p {
+    font-family: poppins;
+    width: 70%;
+    margin:auto;
+}
+main section:nth-child(2){
+    text-align: center;
+    padding:86px 0;
+    margin-top:-40px;
+}
+main section:nth-child(3){
+    text-align: center;
+}
+main section article {
+    text-align: center;
+    background: url("https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80") center no-repeat;
+    background-size: cover;
+    height:200px;
+    width: 20%;
+    display: inline-block;
+    margin-right: 76px;
+    margin-left: 76px;
+}
+main section:nth-child(4){
+margin-bottom:30px;
+}
+main section:nth-child(4) h2{
+text-align: center;
+} 
+main section:nth-child(4) p{
+    font-size: 16px;
+    font-family: poppins;
+    margin:10px 100px;
+}
+
+footer{
+    border-top: 1px solid grey;
+    text-align: center;
+}
+
+footer section {
+    display: inline-block;
+
+}

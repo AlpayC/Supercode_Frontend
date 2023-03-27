@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+div {
+    background: red;
+    height: 300px;
+    width: 300px;
+    border: 10px solid black;
+    margin: 10px 20px 30px 40px;
+    margin: 50px 25px;
+    padding: 20px 30px;
+}
+section p {
+    margin:60px;
+    background-color: aqua;
+    display:inline-block;
+    height:100px;
+}

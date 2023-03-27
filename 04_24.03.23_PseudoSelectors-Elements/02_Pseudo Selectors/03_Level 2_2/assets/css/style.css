@@ -1,0 +1,74 @@
+@font-face {
+    font-family: tahoma;
+    src: url(../fonts/tahoma.ttf);
+}
+@font-face {
+    font-family: "raleway";
+    src: url(../fonts/rale.ttf);
+}
+@font-face {
+    font-family: "montserrat";
+    src: url(../fonts/mont.ttf);
+}
+h3:hover {
+    color: red;
+    font-family: raleway;
+}
+.list1{
+    font-family: tahoma;
+    color: #4E342E;
+}
+.list2{
+    font-family: "montserrat";
+    color: #689F38;
+}
+.list3{
+    font-family: "raleway";
+    color: #EF5350;
+}
+.pfirst{
+    color: #999;
+    font-size: 26px;
+}
+.psecond {
+font-size: 26px;
+color:#0277bd;
+}
+.pthird {
+
+    font-size: 26px;
+}
+.pfourth {
+    color:#0277bd;
+    font-size: 26px;
+}
+.pfifth {
+
+    font-size: 26px;
+}
+.psixth {
+    color:#0277bd;
+}
+button {
+    background-image: linear-gradient(rgb(255, 0, 217), rgb(0, 4, 255));
+    padding:15px 25px;
+    width: 20%;
+    display:block;
+    margin: auto;
+    font-size: 22px;
+    border: 6px double aquamarine;
+    color: white;
+    border-radius: 11px;
+}
+button:hover {
+    transition:ease 0.5s;
+    font-size: 28px;
+    width:25%;
+    color: black;
+}
+button:active {
+    transition: none;
+    color: #e97603;
+    background-image: linear-gradient(rgb(86, 177, 29), rgb(192, 202, 45));
+
+}

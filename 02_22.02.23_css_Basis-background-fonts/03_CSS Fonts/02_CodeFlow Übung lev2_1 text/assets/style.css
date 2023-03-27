@@ -1,0 +1,38 @@
+@font-face {
+    font-family: tahoma;
+    src: url(./Tahoma.ttf);
+}
+@font-face {
+    font-family: lucida;
+    src: url(./Lucida.ttf);
+}
+h1{
+    font-size: 48px;
+    background-color: aqua;
+    text-shadow: 2px 2px 2px rgb(205, 100, 100);
+    font-family: 'tahoma', Arial, Helvetica, sans-serif;
+}
+nav p{
+    text-indent: 10%;
+    word-spacing: 20px;
+    font-family:'lucida',Arial, Helvetica, sans-serif;
+}
+ p{
+    text-indent: 20%;
+    word-spacing: 1px;
+    font-family:'lucida',Arial, Helvetica, sans-serif;
+}
+section p {
+line-height: 50px;
+text-align: center;
+background-color: aqua;
+}
+h2{
+    text-shadow: 3px 3px 3px red;
+}
+
+aside p {
+    line-height: 20px;
+    text-align: center;
+    background-color: rgb(4, 255, 0);
+}

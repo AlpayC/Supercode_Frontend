@@ -1,0 +1,104 @@
+@font-face {
+    font-family: opensans;
+    src: url(../fonts/OpenSans.ttf);
+}
+@font-face {
+    font-family: fredericka;
+    src: url(../fonts/Fredericka.ttf);
+}
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+header{
+    background: url("https://images.unsplash.com/photo-1528592328272-02e8be5b181c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1633&q=80") center no-repeat;
+    background-size:cover;
+    text-decoration: none;
+    color:white;
+    height:100vh;
+}
+header nav{
+    font-family: fredericka;
+    margin:auto 20px;
+    font-size: 40px;
+}
+h1 {
+    font-family: fredericka;
+    font-size: 35px;
+    margin:15px auto;
+}
+header section {
+        text-align: center;
+        margin:500px auto;
+        width:25%;
+        font-family: opensans;
+}
+header section p {
+    margin: 25px auto;
+}
+header section a:first-of-type {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 40px;
+}
+header section a:last-of-type {
+    display:block;
+    text-decoration: none;
+    color: white;
+    position:absolute;
+    bottom:0px;
+    margin-left:799px;
+}
+main {
+    background-color: blanchedalmond;
+    text-align: center;
+    padding:200px;
+}
+main section {
+    width:35%;
+    margin:auto;
+}
+main h2 {
+    font-family: fredericka;
+    font-size: 35px;
+    margin-bottom:20px
+}
+main p {
+    font-family: opensans;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    margin-bottom:40px
+}
+main section section {
+    border: 6px double black;
+    text-decoration: none;
+    color:black;
+    font-family: opensans;
+    padding:10px;
+}
+main section section a {
+    text-decoration: none;
+    color:black;
+    font-family: opensans;
+}
+footer {
+    background-color: rgb(47, 47, 47);
+    height:25%;
+    font-family: opensans;
+    font-size: 16px;
+    padding:20px;
+    color: white;
+}
+footer p{
+margin-bottom:35px;
+width:40%;
+}
+footer a{
+text-decoration: none;
+border: 2px solid rgb(255, 255, 255);
+color: white;
+padding:10px 25px;
+}

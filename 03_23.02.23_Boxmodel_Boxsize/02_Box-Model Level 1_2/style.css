@@ -1,0 +1,17 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: content-box;
+}
+
+section{
+    border: 1px solid black;
+    padding:5px;
+    margin:50px;
+}
+p {
+    background-color: aqua;
+    padding:50px;
+    margin:50px;
+    border: 3px solid black;
+}

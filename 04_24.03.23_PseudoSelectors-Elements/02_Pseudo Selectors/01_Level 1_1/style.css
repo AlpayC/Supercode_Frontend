@@ -1,0 +1,22 @@
+* {
+    margin: 2px;;
+    padding:0;
+    box-sizing: 0;
+}
+a:link{
+    color:rgb(0, 0, 0);
+    font-size: 22px;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FCB941;
+}
+a:hover{
+    text-decoration: none;
+    background-color: #7E3661;
+    color:white;
+}
+a:active {
+    font-size:3em;
+}

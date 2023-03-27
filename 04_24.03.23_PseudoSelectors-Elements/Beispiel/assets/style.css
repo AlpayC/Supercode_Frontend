@@ -1,0 +1,44 @@
+*{
+    margin:11px;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*  hier wird der erste Buchstabe groß geschrieben */
+section p:last-of-type:first-letter{
+font-size: 30px;
+background-color: orange;
+}
+section p:first-of-type::first-line{
+    background-color: green;
+}
+
+p::selection{
+    background-color: aqua;
+}
+
+article li::marker {
+    content:"  -  "
+}
+h2::after{
+    content:"Halloe Leute ";
+    font-size: 50px;
+}
+section a {
+    background-color: orange;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+section a:hover {
+    background-color: red;
+    transition: ease 0.5s;
+    border-radius: 0px;
+}
+
+.header-red-section {
+    color:brown;
+}

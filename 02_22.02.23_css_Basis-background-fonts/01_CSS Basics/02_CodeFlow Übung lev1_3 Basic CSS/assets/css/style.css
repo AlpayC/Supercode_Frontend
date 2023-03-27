@@ -1,0 +1,16 @@
+nav{
+    background-color: grey;
+}
+div{
+    background-color: rgb(173, 173, 173);
+}
+a {
+    color: brown;
+}
+nav{
+    list-style-type: none;
+    padding:15px;
+}
+p span{
+    color: aqua;
+}

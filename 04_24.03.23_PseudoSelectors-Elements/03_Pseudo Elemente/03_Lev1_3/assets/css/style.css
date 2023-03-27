@@ -1,0 +1,19 @@
+*{
+    margin:20px;
+}
+h1::first-letter{
+    color:#00796B;
+    font-size: 3em;
+}
+h1:hover:first-letter{
+    color:#4FC3F7;
+    font-size: 3em;
+}
+p::before{
+content:url(../img/doing.png);
+margin: 5px;
+}
+p::after {
+    content:url(../img/dance.png);
+    margin: 5px;
+}
