@@ -1,0 +1,29 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Bodytag nicht anfassen, aber dafür HTML */
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+/* Rem spricht nur die Schriftart an */
+/* Em der Berechnungskurs oben funktioniert nicht
+sricht das Elternelement an */
+h2 {
+    font-size: 2.4 rem;
+}
+
+section{
+    height: 100vh;
+}
+#eins{
+    background-color: orange;
+}
+#zwei {
+    background-color: aqua;
+}
+#drei {
+    background-color:blueviolet ;
+}
