@@ -1,3 +1,9 @@
+:root {
+    --hauptfarbe: red;
+    --zweitfarbe: yellow;
+    --textfarbe: grey;
+}
+
 *{
     padding:0;
     margin: 0;
@@ -13,6 +19,7 @@ html {
 sricht das Elternelement an */
 h2 {
     font-size: 2.4 rem;
+    color: var(--hauptfarbe);
 }
 
 section{
@@ -26,4 +33,9 @@ section{
 }
 #drei {
     background-color:blueviolet ;
+}
+/* clamp property passt die Schriftgröße an die Bildschirmgröße an
+indem von vorne rein festgelegt, was die min max Werte sind */
+p {
+    font-size: clamp(1.2rem, 1.8vw, 2rem);
 }
