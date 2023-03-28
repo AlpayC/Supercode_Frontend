@@ -1,0 +1,63 @@
+@font-face {
+    font-family: poppins;
+    src: url(./fonts/Poppins-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+
+header{
+    text-align: center;
+    background: url(https://images.unsplash.com/photo-1679940640486-967ee217bf8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80) no-repeat center;
+    height:100vh;
+    background-size: cover;
+    font-family: 'poppins';   
+    color: white;
+    text-shadow: 2px 2px 15px black;
+    padding:0 10vw;
+}
+.navlink{
+    padding-top: 1vh;
+    padding-bottom: 30vh;
+    font-size: clamp(0.9rem, 1.6vw, 1.3rem);
+}
+h1 {
+    display: block;
+    font-size:clamp(9.0rem, 2.5vw, 17rem);
+    line-height: 70%;
+}
+a{
+    text-decoration: none;
+    color:white;
+    display: block;
+}
+p:first-of-type{
+    font-size: clamp(2.9rem, 1.6vw, 4.3rem);
+    margin-bottom: 1vh;
+}
+p:last-of-type{
+    font-size: clamp(1.0rem, 1.6vw, 1.3rem);
+    margin-bottom: 35vh;
+}
+.btn {
+    display: inline-block;
+    font-size: clamp(0.9rem, 1.6vw, 1.3rem);
+    border:2px solid rgba(194, 194, 194, 0.32);
+    padding: 1vh;
+
+}
+.btn:hover {
+    display: inline-block;
+    transition: ease 0.5s;
+    border:2px solid rgba(255, 255, 255, 0.817);
+    padding: 1vh;
+}
