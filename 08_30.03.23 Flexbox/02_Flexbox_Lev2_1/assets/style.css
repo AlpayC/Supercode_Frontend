@@ -1,0 +1,76 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.bildergalerie{
+    width:100vw;
+    background-color: rgb(184, 184, 184);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    gap:1rem;
+    padding-top:1rem;
+}
+.bild1 , .bild2, .bild3, .bild4, .bild5 , .bild6, .bild7,
+.bild8,.bild9, .bild10, .bild11, .bild12{
+    height:40vh;
+    width:40vh;
+}
+.bild1{
+    background:url("https://picsum.photos/200/200") no-repeat center;
+    background-size: cover;
+}
+.bild2{
+    background:url("https://picsum.photos/200/200") no-repeat center;
+    background-size: cover;
+}
+.bild3{
+    background:url("https://picsum.photos/200/200") no-repeat center;
+    background-size: cover;
+}
+.bild4{
+    background:url("https://picsum.photos/200/200") no-repeat center;
+    background-size: cover;
+}
+.bild5{
+    background:url("https://picsum.photos/200/200") no-repeat center;
+    background-size: cover;
+    background-size: cover;
+}
+.bild6{
+    background:url("https://picsum.photos/200/200") no-repeat center;
+    background-size: cover;
+    
+}
+.bild7{
+    background:url("https://picsum.photos/200/200") no-repeat center;
+    background-size: cover;
+    
+}
+.bild8{
+    background:url("https://picsum.photos/200/200") no-repeat center;
+    background-size: cover;
+    
+}
+.bild9{
+    background:url("https://picsum.photos/200/200") no-repeat center;
+    background-size: cover;
+    
+}
+.bild10{
+    background:url("https://picsum.photos/200/200") no-repeat center;
+    background-size: cover;
+    
+}
+.bild11{
+    background:url("https://picsum.photos/200/200") no-repeat center;
+    background-size: cover;
+}
+.bild12{
+    background:url("https://picsum.photos/200/200") no-repeat center;
+    background-size: cover;
+    
+}

@@ -1,0 +1,67 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* Berechnung des Borderboxes */
+}
+
+/* Was ist Display-flex?
+
+    Es hilft uns beim Ausrichten benachbarter Elemente.
+    
+
+
+*/
+
+header{
+   height:100vh;
+   display: flex;
+   
+   /* horizontale Ausrichtung */
+   /* default Elemente werden zur Startline gepackt links
+   /* justify-content: flex-start;
+   /* Elemente werden rechtsbündig ausgerichtet */
+   /* justify-content: flex-end;*/
+   /* Elemente werden mittig platziert */
+   justify-content: center;
+   /* Platz werden zwischen den Elementen gleichermaßen geschaffen */
+   /* justify-content: space-around;*/
+   /* Das erste und letzte Element rücken am Ende*/
+   /*justify-content: space-between; */
+   /* Der gleiche Abstand zu den Elementen*/
+   justify-content: space-evenly;
+   /* align-items: center;*/
+   /* Elemente werden an der unteren Querlinie ausgerichtet*/
+   /* align-items: flex-end;;*/
+   /* Elemente werden in der Querachse zentriert;*/
+   /* align-items: center;*/
+   /* Elemente werden an der Grundlinie ausgerichtet;*/
+   /* align-items: baseline;*/
+   /* Die Zeilen werden am Anfang des Containers ausgerichtet*/
+      /* align-items: start;flexwrap wird bei align items benötigt*/
+   flex-wrap: wrap;
+      /* Die Zeilen werden am Anfang des Containers ausgerichtet*/
+
+    align-content: center;
+}
+
+header section{
+    width: 300px;
+    background-color: red;
+}
+
+.navigation{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+    flex-direction:row;
+    column-gap: 5rem;
+    }
+
+       /*
+    row gap ersetzt unser margin horizontal*/
+   /*
+    column gap ersetzt unser margin vertikal*/
+
+    https://source.unsplash.com/random/300x300

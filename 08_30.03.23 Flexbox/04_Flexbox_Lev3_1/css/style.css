@@ -1,0 +1,109 @@
+:root {
+    --logofarbe:#666;
+    --logofarbe_hover: #333;
+    --menüfarbe: #333;
+    --menüfarbe_hover: #337ab7;
+    --textwhite:white;
+}
+
+@font-face {
+    font-family: rale;
+    src: url(../fonts/Raleway-VariableFont_wght.ttf);
+}
+html{
+    font-size:62.5%;
+    font-family: rale;
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+nav a{
+    text-decoration: none;
+    padding: 2rem;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--menüfarbe);   
+
+}
+nav a:hover{
+    color: var(--menüfarbe_hover);   
+
+}
+header{
+    border-bottom: 0.1rem  solid var(--menüfarbe);
+    height: 76px;
+}
+.navi{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content:center;
+    align-items: first baseline;
+    flex-direction: row;
+    height:76px;
+}
+h1{
+    font-size: 2.8rem;
+    color:var(--logofarbe);
+    font-weight: 500;
+}
+h1:hover{
+    color:var(--logofarbe_hover);
+}
+.hero{
+    background:url("https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg") center no-repeat;
+    background-size: cover;
+    height: 95vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: var(--textwhite);
+}
+.hero h2 {
+    font-size: 6rem;
+    margin-bottom: 2.4rem;
+    font-weight: 500;
+    line-height: 6.2rem;
+}
+.hero p {
+    font-size: 1.6rem;
+    margin-bottom: 4.4rem;
+}
+.cta a{
+    text-decoration: none;
+    color:var(--textwhite);
+    font-size: 1.2rem;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    padding:1.3rem 2.6rem;
+    border: 0.2rem solid;
+    margin:0 0.8rem 2.4rem 0;
+
+}
+.cta a:first-of-type{
+background-color:#745cf9 ;
+border: #745cf9;
+
+}
+.cta a:hover:first-of-type{
+    transition: ease 0.2s;
+    opacity: 80%;
+    background-color:#5234f9 ;
+    border: #5234f9;
+    
+    }
+
+.cta a:hover:last-of-type{
+        transition: ease 0.2s;
+        background-color:var(--textwhite) ;
+        color: var(--logofarbe_hover);
+        border: 0.2rem solid var(--textwhite);
+}

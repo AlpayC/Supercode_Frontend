@@ -1,0 +1,43 @@
+:root {
+    --logofarbe:#666;
+    --logofarbe_hover: #333;
+    --menüfarbe: rgba(0,0,0,.8);
+    --menüfarbe_hover: #337ab7;
+    --textwhite:white;
+    --background: #D9E8E5;
+}
+
+@font-face {
+    font-family: lato;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+html{
+    font-size:62.5%;
+    font-family: lato;
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+header{
+    height: 79px;
+    border-bottom: 1px solid var(--background);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+nav {
+
+}
+nav .nav1 a {
+    padding: 2rem;
+    margin: 5vw;
+}

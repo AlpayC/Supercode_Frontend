@@ -1,0 +1,56 @@
+:root {
+    --logofarbe:#666;
+    --logofarbe_hover: #333;
+    --menüfarbe: #333;
+    --menüfarbe_hover: #337ab7;
+}
+
+@font-face {
+    font-family: rale;
+    src: url(../fonts/Raleway-VariableFont_wght.ttf);
+}
+html{
+    font-size:62.5%;
+    font-family: rale;
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    padding: 2rem;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--menüfarbe);   
+
+}
+a:hover{
+    color: var(--menüfarbe_hover);   
+
+}
+header{
+    border-top: 0.2rem solid var(--logofarbe);
+    border-bottom: 0.1rem  solid var(--menüfarbe);
+    height: 76px;
+}
+.navi{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content:center;
+    align-items: first baseline;
+    flex-direction: row;
+    height:76px;
+}
+h1{
+    font-size: 2.8rem;
+    color:var(--logofarbe);
+    font-weight: 500;
+}
+h1:hover{
+    color:var(--logofarbe_hover);
+}
