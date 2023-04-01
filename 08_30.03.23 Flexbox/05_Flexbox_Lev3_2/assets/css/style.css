@@ -23,21 +23,79 @@ html{
 }
 a{
     text-decoration: none;
+    font-size: 1.6rem;
+    color: black;
 }
-header{
+nav{
     height: 79px;
     border-bottom: 1px solid var(--background);
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: flex-start;
-    align-items: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 5rem;
 }
-nav {
+.nav1 a, .nav2 a{
+    padding:0 2rem;
+}
+
+main{
+    height: 120rem;
+    width: 100vw;
+    background-color:#D9E8E5 ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+     align-items: center;
+    padding:12rem;
+}
+.rings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+}
+article{
+    height: 20rem;
+    width: 30rem;
+    display: flex;
+    justify-content: end;
+    align-items: end;
 
 }
-nav .nav1 a {
-    padding: 2rem;
-    margin: 5vw;
+
+.rings article:first-of-type {
+    background: url(../img/ring001.png)
+    center no-repeat;
+    background-size: cover;
+    
 }
+.rings article:nth-of-type(2) {
+    background: url(../img/ring002.png)
+    center no-repeat;
+    background-size: cover;    
+}
+.rings article:nth-of-type(3) {
+    background: url(../img/ring003.png)
+    center no-repeat;
+    background-size: cover;    
+}
+.rings article:nth-of-type(4) {
+    background: url(../img/ring004.png)
+    center no-repeat;
+    background-size: cover;    
+}
+.rings article:nth-of-type(5) {
+    background: url(../img/ring005.png)
+    center no-repeat;
+    background-size: cover;    
+}
+.rings article:nth-of-type(6) {
+    background: url(../img/ring006.png)
+    center no-repeat;
+    background-size: cover;    
+}
+
+
+
