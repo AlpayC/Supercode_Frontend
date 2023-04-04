@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lev1_1 Forms</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <form>
+        <label for="Name">Name<span> *</span></label>
+        <input placeholder="Vorname" required type="name" name="Vorname" id="Name">
+        <input placeholder="Nachname" required type="name" name="Nachname" id="Name">
+        <label for="email">Email <span> *</span></label>
+        <input type="email">
+        <label for="themen">Thema</label>
+        <select id="Themen">
+        <option value="general">General</option>
+        <option value="advertise">Advertise</option>
+        <option value="partnership">Partnership</option>
+        </select>
+        <label for="Nachricht">Nachricht<span> *</span></label>
+        <textarea id="textarea" cols="30" rows="10"></textarea>
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+</html>

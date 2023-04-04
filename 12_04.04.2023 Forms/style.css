@@ -1,0 +1,18 @@
+input{
+    background-color: orange;
+    width: 200px;
+    accent-color: blue;
+}
+
+label{
+    display: block;
+}
+
+input [type="number"]{
+    height: 100px;
+}
+textarea{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}

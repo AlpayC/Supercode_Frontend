@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-size: 1.2rem;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 30vh 30vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+span{
+    color: red;
+    font-weight: bolder;
+}
+label{
+    font-weight: bolder;
+}
+input, select, textarea{
+    margin-bottom: 1rem;
+}
+input{
+    padding: 0.5rem;
+}
+
+input[type="submit"] {
+    font-size: 0.8rem;
+    background-color: #4890A2;
+    border-color: #4890A2;
+    color: white;
+    font-weight: bolder;
+  }

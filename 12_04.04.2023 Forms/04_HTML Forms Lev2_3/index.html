@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lev2_3 Forms</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    
+    <form>
+        <fieldset>
+            <legend>Register form</legend>
+               
+            <div class="name">
+                <label for="name">Name</label>
+                <input placeholder="Name" type="name">
+            </div>
+            <div class="surname">
+                <label for="surname">Surname</label>
+                <input placeholder="Surname" type="Surname">
+            </div>
+            <div class="email">
+                <label for="email">Email</label>
+                <input placeholder="email" type="email" id="email">
+            </div>
+            <div class="gender">
+                <label for="Gender">Gender</label>
+                <article>
+                    <label for="gender">Male</label>
+                    <input type="radio" id="gender" value="male" name="gender">
+                    <label for="gender">Female</label>
+                    <input type="radio" id="gender" value="female" name="gender">
+                </article>
+            </div>
+            <div class="file">
+                <label for="file">Picture</label>
+                <input type="file">
+            </div>
+            <div class="country">
+                <label for="country">Country</label>
+                <select id="country">
+                <option value="germany">Germany</option>
+                <option value="usa">USA</option>
+                <option value="uk">Partnership</option>
+            </select>
+            </div>
+            <div class="languages">
+                <label for="languages">Preferred languages</label>
+                <select id="languages" size="4">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="js">JS</option>
+                <option value="react">React</option>
+                <option value="vue.js">Vue.js</option>
+                </select>
+                <p>(To choose more than one use cmd key)</p>
+                
+            </div>
+            <div class="field">
+                <label for="field of activity">Field of activity</label>
+                <article>
+                    <input type="checkbox">
+                    <label for="checkbox">IT</label>
+                    <input type="checkbox">
+                    <label for="checkbox">Design</label>
+                    <input type="checkbox">
+                    <label for="checkbox">Other</label>
+                    
+                </article>
+   
+            </div>
+            
+        
+       
+        </div>
+        <div class="btns">
+        <input type="submit" value="Send">
+        <input type="reset" value="Cancel">
+    </div>
+</fieldset>
+    </form>
+</body>
+</html>
