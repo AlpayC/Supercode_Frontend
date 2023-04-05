@@ -1,0 +1,13 @@
+.overflow {
+    background-color: orange;
+    /* height:00px; */
+    /* overflow:hidden; */
+    /* default wert
+    overflow:visible; */
+    /* overflow:auto;
+    overflow:scroll; */
+}
+img{
+    max-width: 100%;
+}
+/* immer mit angeben am besten unter html selektor */
