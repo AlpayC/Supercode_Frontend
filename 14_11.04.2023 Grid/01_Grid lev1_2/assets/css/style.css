@@ -1,12 +1,13 @@
 .grid-parent{
     display:grid;
-    gap:5px;
+    gap:25px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows:repeat(3, 1fr);
+    height:40vh;
 }
 div{
-    height:44px;
-    border-radius: 4px;
+    height:auto;
+    border-radius: 22px;
 }
 .box1{
     background-color: #ED0105;
