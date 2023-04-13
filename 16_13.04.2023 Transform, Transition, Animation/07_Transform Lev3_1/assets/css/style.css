@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width:20%;
+}
+.element{
+    perspective: 1000px;
+    padding: 500px;
+}
+
+.element div{
+    display: flex;
+    align-items: flex-start;
+    padding: 50px;
+    margin: -20px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.card1, .card2, .card3{
+    border-radius: 20px;
+    position: relative;
+    transform: rotateY(-16deg) rotateX(10deg);
+    z-index: 1;
+    transition: all 0.5s 0s ease;
+    box-shadow:inset -2px -1px 2px 3px rgba(0,0,0,0.17);
+}
+.card1{
+    background-color: #BEE5F6;
+}
+.card2{
+    background-color: #F7FEC0;
+}
+.card3{
+    background-color: #EDDBFB;
+}
+.element .card1:hover,.element .card2:hover, .element .card3:hover{
+    z-index:4;
+    transform:rotateY(-5deg)rotateX(2deg);
+}

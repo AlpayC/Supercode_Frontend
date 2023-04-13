@@ -1,0 +1,35 @@
+.boxwrapper div{
+    background-color: green;
+    width: 110px;
+    height: 110px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    transition: all 1s 0s ease;
+}
+
+.boxwrapper{
+    padding: 200px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+}
+.boxwrapper div:first-of-type:hover{
+    transform: translate(40px, 40px);
+}
+.boxwrapper div:nth-child(2):hover{
+    transform: translateX(-110px);
+}
+.boxwrapper div:nth-child(3):hover{
+    transform: translateY(60px);
+}
+.boxwrapper div:nth-child(4):hover{
+    transform: rotate(45deg);
+}
+.boxwrapper div:nth-child(5):hover{
+    transform: scale(1.5)
+}
+.boxwrapper div:nth-child(6):hover{
+    transform: skew(15deg, 15deg)
+}

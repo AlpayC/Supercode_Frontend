@@ -1,0 +1,14 @@
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    display: inline-block;
+    margin: 400px;
+    border-radius: 20px;
+    transition: all 1s 0s ease;
+}
+
+.box:hover{
+    transform-origin:2% 96% ;
+    transform: rotate(90deg) scale(2);
+}
