@@ -1,0 +1,45 @@
+@keyframes move {
+    0% {
+      background-color: yellow;
+      transform: translateX(90vw);
+    }
+  
+    40% {
+      background-color: red;
+      transform: translate(0vw, 0vh);
+    }
+    60% {
+      background-color: blue;
+      transform: translate(0vw, 90vh);
+    }
+  
+    80% {
+      background-color: greenyellow;
+      transform: translate(90vw, 90vh);
+    }
+  
+    100% {
+      background-color: yellow;
+      transform: translateX(90vw);
+    }
+  }
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+    width: 100vw;
+    height: 100vh;
+}
+  div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 200px;
+    animation: move 5s 0.1s ease-in-out infinite reverse;
+  }
+
