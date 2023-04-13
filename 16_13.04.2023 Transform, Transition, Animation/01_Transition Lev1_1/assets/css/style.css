@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.rechteck{
+    width: 50px;
+    background-color: red;
+    height: 50px;
+    transition:all 1s 0.2s ease-in-out ;
+}
+
+.rechteck:hover{
+    cursor: pointer;
+    Transform:scaleX(15); 
+}

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+}
+.img{
+   background-image: url("../img/ele01_DSC02070_1280x1280.jpg");
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+    position:absolute;
+    overflow: hidden;
+}
+
+h1{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:100%;
+    transition: all 0.5s 0s ease-in;
+    background-color: rgba(0, 0, 0, 0.495); 
+    height:500px;
+    width: 500px;
+}
+.img:hover h1{
+    transform:translateY(-100%);
+}

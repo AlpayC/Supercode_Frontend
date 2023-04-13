@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    position:relative;
+    background-color: grey;
+    height: 120px;
+    width: 500px;
+    
+}
+div:first-of-type{
+    width: 50px;
+    height:50px;
+    background-color: red;
+    position: absolute;
+    left:0;
+    transition: all 2s 0s linear;
+}
+div:last-of-type{
+    width: 50px;
+    height:50px;
+    background-color: green;
+    position: absolute;
+    left:0;
+    top: 50px;
+    transition: all 2s 1s linear;
+    transition-timing-function: cubic-bezier(0.25, 1, 0.5, 1);
+}
+.box:hover div:first-of-type{
+    left:90%;
+}
+.box:hover div:last-of-type{
+    left:90%;
+}
