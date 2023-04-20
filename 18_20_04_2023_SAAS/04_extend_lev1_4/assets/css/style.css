@@ -1,0 +1,35 @@
+/* GLOBAL*/
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  padding: 1rem;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+  font-size: 1rem;
+}
+
+.nav div {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  background-color: rgba(128, 128, 128, 0.397);
+}
+
+.header {
+  height: 6rem;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */

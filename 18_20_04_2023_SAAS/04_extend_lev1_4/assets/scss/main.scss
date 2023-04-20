@@ -1,0 +1,29 @@
+// IMPORTS //
+@import "mixin.scss";
+
+
+// VARIABLES //
+$h1_h2size: 1rem;
+
+
+
+/* GLOBAL*/
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    @include linkstyling;
+}
+
+h1,h2{
+    font-size: $h1_h2size;
+}
+.nav div{
+    @include divstyling;
+}
+.header{
+    @include headerstyling;
+}
