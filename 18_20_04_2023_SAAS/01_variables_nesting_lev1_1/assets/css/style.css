@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 50vh;
+  gap: 3rem;
+}
+header i {
+  font-size: 4rem;
+  text-align: center;
+}
+header i h2 {
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: black;
+}
+header i:nth-child(2n) {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1rem;
+}
+
+.la-twitter {
+  color: #1da1f2;
+}
+
+.la-behance {
+  color: #1769ff;
+}
+
+.la-facebook-f {
+  color: #1877f2;
+}
+
+.la-vimeo {
+  color: #1ab7ea;
+}
+
+.la-snapchat {
+  color: #fffc00;
+}
+
+.la-airbnb {
+  color: #fd5c63;
+}
+
+.la-amazon {
+  color: #ff9900;
+}
+
+.la-android {
+  color: #a4c639;
+}
+
+.la-stack-overflow {
+  color: #f48024;
+}
+
+.la-ubuntu {
+  color: #dd4814;
+}
+
+.la-github {
+  color: #333;
+}
+
+.la-js-square {
+  color: #f7df1e;
+}
+
+/*# sourceMappingURL=style.css.map */
