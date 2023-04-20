@@ -1,0 +1,24 @@
+@mixin circlesize{
+    width: 50%;
+    height: 50%;
+    border-radius: 100px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+
+}
+@mixin circlecolor($divcolor){
+    background-color: $divcolor;
+    border: 2px solid black;
+}
+@mixin animationcircles($duration){
+    animation: myAnim $duration ease-in-out 0s infinite alternate none;
+    @keyframes myAnim {
+        0% {
+            transform: translateX(1vw);
+        }
+    
+        100% {
+            transform: translateX(70vw);
+        }
+    }
+}

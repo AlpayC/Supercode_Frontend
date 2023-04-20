@@ -1,0 +1,87 @@
+//IMPORTS//
+@import "variables.scss";
+@import "mixin.scss";
+
+// VARIABLES//
+
+$h1_h2_titlesize:1rem;
+$text_images_margin:1rem;
+$textcenter:center;
+$flexstart:flex-start;
+$flex:flex;
+$row:row wrap;
+$width_aside:45%;
+$width_sectiontxt:70%;
+
+/* GLOBAL SETTINGS */
+
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+    @include linkstyling;
+}
+img{
+    @include imgstyling;
+}
+
+/* HEADER */
+header{
+    h1,h2{
+        font-size: $h1_h2_titlesize;
+    }
+    @include headerstyling;
+}
+nav .nav_links{
+    @include navigationlinks;
+}
+
+/* MAIN */
+main{
+    @include flex_column_nowrap_center;
+    .section_text >h3{
+        text-align: $textcenter;
+    }
+    .section_text, .section_images{
+        margin:$text_images_margin;
+    }
+    .section_images{
+        @include flex_column_nowrap_center;
+    }
+}
+
+/* ASIDE */
+.aside {
+    @include flex_column_nowrap_center;
+    align-items: $flexstart;
+    margin:$text_images_margin;
+    aside{
+        @include asidestyling;
+    }
+}
+/* FOOTER */
+footer{
+    @include footerstyling;
+    .footer_links{
+        display:$flex;
+        justify-content:$textcenter;
+        margin-bottom: $text_images_margin;
+    }
+}
+/* MEDIA QUERIES */
+
+@media screen and (min-width:600px) {
+    .aside aside{
+        width: $width_aside;
+    	margin: 0.5rem;
+    }
+    .section_text {
+    	width: $width_sectiontxt;
+	}
+    main .section_images,.aside {
+        @include flex_row_wrap;
+	}
+}

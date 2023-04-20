@@ -1,0 +1,53 @@
+header {
+  width: 50vh;
+  height: 50vh;
+}
+
+div {
+  width: 50%;
+  height: 50%;
+  border-radius: 100px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+div .ball1 {
+  background-color: red;
+  border: 2px solid black;
+  animation: myAnim 1s ease-in-out 0s infinite alternate none;
+}
+@keyframes myAnim {
+  0% {
+    transform: translateX(1vw);
+  }
+  100% {
+    transform: translateX(70vw);
+  }
+}
+div .ball2 {
+  background-color: blue;
+  border: 2px solid black;
+  animation: myAnim 1.5s ease-in-out 0s infinite alternate none;
+}
+@keyframes myAnim {
+  0% {
+    transform: translateX(1vw);
+  }
+  100% {
+    transform: translateX(70vw);
+  }
+}
+div .ball3 {
+  background-color: yellow;
+  border: 2px solid black;
+  animation: myAnim 2s ease-in-out 0s infinite alternate none;
+}
+@keyframes myAnim {
+  0% {
+    transform: translateX(1vw);
+  }
+  100% {
+    transform: translateX(70vw);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

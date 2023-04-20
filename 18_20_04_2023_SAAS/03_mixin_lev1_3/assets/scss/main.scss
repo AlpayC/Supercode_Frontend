@@ -1,0 +1,22 @@
+@import "mixin.scss";
+
+
+header{
+    width: 50vh;
+    height: 50vh;
+}
+div{
+    @include circlesize;
+    .ball1{
+        @include circlecolor($divcolor:red);
+        @include animationcircles($duration:1s);
+    }
+    .ball2{
+        @include circlecolor($divcolor:blue);
+        @include animationcircles($duration:1.5s);
+    }
+    .ball3{
+        @include circlecolor($divcolor:yellow);
+        @include animationcircles($duration:2s);
+    }
+}
