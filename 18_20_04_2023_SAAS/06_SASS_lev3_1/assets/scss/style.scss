@@ -1,0 +1,57 @@
+/* STYLINGS */
+
+/* GLOBALS STYLINGS */
+
+/* BG COLOR */
+$lineargradient_colors:linear-gradient(50deg, $purple 12.50%, $blue 12.50%, $blue 25%, $yellow 25%, $yellow 37.50%, $red 37.50%, $red 50%, $purple 50%, $purple 62.50%, $blue 62.50%, $blue 75%, $yellow 75%, $yellow 87.50%, $red 87.50%, $red 100%);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $font-stack;
+}
+header{
+    height: $sectionheight;
+    background-image: $lineargradient_colors;
+}
+a{
+    text-decoration: none;
+    color: $iconblack;
+    font-size: 2vw;
+    display: block;
+    text-align: center;
+}
+main a{
+    background-color: $yellow;
+    padding: 1vh;
+    color: $bgwhite;
+    font-weight: 700;
+}
+main{
+    height:$sectionheight;
+    background-color:$bgwhite;
+}
+
+/* FONTSTYLING */
+h1,h2, .nr{
+    color: $txtwhite;
+}
+h1{
+    font-size:11vw;
+}
+h2, .nr{
+    font-size: 4vw;
+}
+h3, i{
+    font-size: 2vw;
+}
+.plus{
+    @extend i;
+    font-weight: 900;
+}
+.img{
+    @include imgstyling;
+}
+.content{
+    padding: 0 4rem;
+}

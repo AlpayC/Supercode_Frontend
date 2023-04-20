@@ -1,0 +1,76 @@
+@import "_variables";
+@import "_mixin";
+@import "style.scss";
+
+/* HEADER */
+
+.hero{
+    display:$flex;
+    justify-content: space-between;
+    padding: 2rem;
+    height: inherit;
+    flex-flow: row;
+    .plus{
+        width:$totalwidth;
+    }
+    .titlebox{
+        display: $flex;
+        justify-content: $center;
+        flex-direction: $flexdirection;
+        width: $totalwidth;
+        .nr{
+            display: $flex;
+            justify-content: flex-end;
+            flex-direction: $flexdirection;
+            position: relative;
+            p{
+             @include circlestyling;
+            }
+        }
+        .title{
+            text-align: $center;
+            @extend .titlebox;
+        }
+    }
+    .socialmediaicons{
+        @include socialmediastyling;
+    }
+}
+
+/* MAIN */
+main{
+    padding: $gap_bottom;
+    .about{
+        display:$flex;
+        justify-content: center;
+        align-items: center;
+        gap: $gap_bottom;
+        margin-bottom: $gap_bottom;
+        .img{
+            background-image:url(../img/efe-kurnaz-RnCPiXixooY-unsplash.jpg);
+        }
+        article{
+            width: $totalwidth;
+        }
+        .content{
+            @extend .about;
+            flex-direction: column;
+            width: $totalwidth;
+        }
+    }
+    .services{
+        @extend .about;
+        flex-direction: row-reverse;
+        .img{
+            background-image:url(../img/lucas-kapla-wQLAGv4_OYs-unsplash.jpg);
+        }
+        .content{
+            @extend .content;
+        }
+    }
+}
+
+/*FOOTER*/
+footer{
+    @include footerstyling;
+}

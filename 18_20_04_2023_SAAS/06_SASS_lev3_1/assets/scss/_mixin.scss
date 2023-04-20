@@ -1,0 +1,38 @@
+@mixin circlestyling{
+    align-self: flex-end;
+    background-color: $yellow;
+    padding: 2vh;
+    border-radius: 50%;
+    position: absolute;
+    top: -9vh;
+    right: -4vw;
+    font-size: 5vw;
+    padding: 1.2vw 2vw;
+}
+
+@mixin socialmediastyling{
+    text-align: right;
+    align-self: flex-end;
+    padding: 3rem;
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+}
+@mixin imgstyling{
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+}
+@mixin displayflexcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin footerstyling{
+    height: 10vh;
+    background-image: $lineargradient_colors;
+    background-size: 546.93px 586.51px;
+    @include displayflexcenter;
+    color: $txtwhite;
+}
