@@ -1,0 +1,45 @@
+@import "variables.scss";
+@import "mixin.scss";
+
+/* =======================
+    GLOBAL
+======================*/
+*{
+    margin:0;
+    padding:0;
+}
+
+header, main{
+    padding:30px;
+    color:$firstcolor;
+}
+header{
+    color:red;
+    h1{
+        font-size: 20px;
+    }
+    nav{
+        background-color: brown;
+        a{
+            text-decoration: none;
+            color: white;
+            &:last-of-type{
+                color: black;
+            }     
+        }
+    }
+}
+
+
+main{
+    section{
+        @include textstyle(2rem,red,yellow);
+        @include grid3;
+    }
+    figcaption{
+        h2:hover + p{
+            color:lightsalmon;
+                    }
+                }
+}
+

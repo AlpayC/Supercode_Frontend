@@ -1,0 +1,43 @@
+/* =======================
+    GLOBAL
+======================*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header, main {
+  padding: 30px;
+  color: blue;
+}
+
+header {
+  color: red;
+}
+header h1 {
+  font-size: 20px;
+}
+header nav {
+  background-color: brown;
+}
+header nav a {
+  text-decoration: none;
+  color: white;
+}
+header nav a:last-of-type {
+  color: black;
+}
+
+main section {
+  font-size: 2rem;
+  color: red;
+  background: yellow;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+main figcaption h2:hover + p {
+  color: lightsalmon;
+}
+
+/*# sourceMappingURL=style.css.map */

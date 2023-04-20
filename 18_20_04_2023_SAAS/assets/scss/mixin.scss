@@ -1,0 +1,10 @@
+@mixin grid3{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:2rem;
+}
+@mixin textstyle ($fontSize, $color, $background) {
+    font-size: $fontSize;
+    color: $color;
+    background: $background;
+}
