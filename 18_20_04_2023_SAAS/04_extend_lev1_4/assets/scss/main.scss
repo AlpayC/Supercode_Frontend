@@ -4,7 +4,9 @@
 
 // VARIABLES //
 $h1_h2size: 1rem;
-
+$greentxt:rgba(0, 128, 0, 0.781);
+$marginbottom:.5rem;
+$h3asidecolor:rgba( 255, 0, 0, 0.705);
 
 
 /* GLOBAL*/
@@ -21,9 +23,66 @@ a{
 h1,h2{
     font-size: $h1_h2size;
 }
+/*HEADER*/
+
 .nav div{
     @include divstyling;
 }
 .header{
     @include headerstyling;
+}
+
+/* MAIN */
+.main{
+    @include mainstyling;
+    .section{
+        margin: 1rem;
+        font-family: Arial, Helvetica, sans-serif;   
+        h3{
+            margin-bottom: $marginbottom;
+        } 
+    }
+    article{
+        @extend .section;
+        h3{
+            color:$greentxt;
+        }        
+    }
+}
+
+/* ASIDE */
+.aside{
+    @include divstyling;
+    @extend .main;
+    aside{
+        @include asidestyling;
+        h3{
+            color:$h3asidecolor;
+        }
+    }
+}
+
+/* FOOTER */
+.footer{
+    @include footerstyling;
+}
+
+/* MEDIA QUERIES */
+.main {
+    @include flexstyling;
+}
+
+.aside {
+    @extend .main;
+}
+
+main .section {
+    width: 30%;
+}
+.first_article,.second_article{
+    @extend .section;
+}
+
+.aside aside {
+    width: 45%;
 }

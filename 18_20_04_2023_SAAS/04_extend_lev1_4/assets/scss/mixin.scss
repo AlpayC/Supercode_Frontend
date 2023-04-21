@@ -17,3 +17,27 @@
     margin-bottom: 1rem;
     background-color: rgba(128, 128, 128, 0.397);
 }
+@mixin mainstyling{
+    display: flex;
+    flex-flow: column nowrap;
+}
+@mixin asidestyling{
+    margin: .5rem;
+    border: 0.2rem solid rgba(0, 0, 255, 0.678);    
+    padding: 1rem;
+ 
+}
+@mixin footerstyling{
+    height: 6rem;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1rem;
+    background-color: rgba(128, 128, 128, 0.658);
+    margin-top: 3rem;
+
+}
+@mixin flexstyling{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}

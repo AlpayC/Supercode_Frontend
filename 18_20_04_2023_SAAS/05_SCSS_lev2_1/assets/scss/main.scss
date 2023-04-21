@@ -1,0 +1,38 @@
+@import "style.scss";
+@import "mixin.scss";
+
+
+/* HEADER */
+
+.hero{
+    display:$flex;
+    justify-content: space-between;
+    padding: 2rem;
+    height: inherit;
+    flex-flow: row;
+    .plus{
+        width:$totalwidth;
+    }
+    .titlebox{
+        display: $flex;
+        justify-content: $center;
+        flex-direction: $flexdirection;
+        width: $totalwidth;
+        .nr{
+            display: $flex;
+            justify-content: flex-end;
+            flex-direction: $flexdirection;
+            position: relative;
+            p{
+             @include circlestyling;
+            }
+        }
+        .title{
+            text-align: $center;
+            @extend .titlebox;
+        }
+    }
+    .socialmediaicons{
+        @include socialmediastyling;
+    }
+}

@@ -1,0 +1,56 @@
+/* STYLINGS */
+
+/* VARIABLES */
+$blue: #5bf2fd;
+$yellow: #fcc736;
+$red: #fd5f5f;
+$purple: #bb4dfa;
+$txtwhite: white;
+$iconblack: black;
+$font-stack: Helvetica, sans-serif;
+$totalwidth:100%;
+$flex:flex;
+$flexdirection: column;
+$center:center;
+
+/* GLOBALS STYLINGS */
+
+/* BG COLOR */
+$lineargradient_colors:linear-gradient(50deg, $purple 12.50%, $blue 12.50%, $blue 25%, $yellow 25%, $yellow 37.50%, $red 37.50%, $red 50%, $purple 50%, $purple 62.50%, $blue 62.50%, $blue 75%, $yellow 75%, $yellow 87.50%, $red 87.50%, $red 100%);
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100VH;
+    background-image: $lineargradient_colors;
+}
+a{
+    text-decoration: none;
+    color: $iconblack;
+}
+
+
+/* FONTSTYLING */
+h1,h2, .nr{
+    color: $txtwhite;
+}
+h1{
+    font-size:11vw;
+    font-family: $font-stack;
+}
+h2, .nr{
+    font-size: 4vw;
+    font-family: $font-stack;
+}
+i{
+    font-size: 2vw;
+}
+.plus{
+    @extend i;
+    font-weight: 900;
+}
+
