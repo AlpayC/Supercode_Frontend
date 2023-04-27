@@ -1,0 +1,20 @@
+* {
+  padding: 1rem;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+form div div {
+  display: flex;
+  flex-direction: row;
+}
