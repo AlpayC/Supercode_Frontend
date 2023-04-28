@@ -1,0 +1,55 @@
+@font-face {
+  font-family: ;
+  src: url();
+}
+
+:root {
+  --var1: ;
+  --var2: ;
+  --var3: ;
+}
+
+/* GLOBAL SETTINGS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* HEADER  */
+label {
+  display: block;
+}
+
+.login {
+  background-color: rgb(187, 187, 187);
+  padding: 2rem;
+  margin: 2rem;
+}
+.login form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login input[type="text"] {
+  margin-bottom: 1rem;
+}
+.login input[type="password"] {
+  margin-bottom: 1rem;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
