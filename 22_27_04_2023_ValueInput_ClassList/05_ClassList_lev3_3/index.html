@@ -11,7 +11,12 @@
     <form>
       <h1>RGB COLOR GENERATOR</h1>
       <h2>Die Hintergrundfarbe ist:</h2>
-      <p class="output">rgb(77, 192, 156)</p>
+      <div class="outputcontainer">
+        <p class="output" id="rgbcode">rgb(77, 192, 156)</p>
+        <button class="btncopy" onclick="copyToClipboard()">
+          <!-- <img src="./assets/img/copy-icon.png" alt="" /> -->
+        </button>
+      </div>
       <label for="red">Red</label>
       <input
         onchange="changeBackground();return false"
