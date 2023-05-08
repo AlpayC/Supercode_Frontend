@@ -1,0 +1,56 @@
+@font-face {
+  font-family: ;
+  src: url();
+}
+
+:root {
+  --var1: ;
+  --var2: ;
+  --var3: ;
+}
+
+/* GLOBAL SETTINGS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* HEADER  */
+
+button {
+  font-size: 40rem;
+}
+
+html {
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+}
+.outputcontainer {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  align-items: center;
+  font-size: 4rem;
+}
+.output {
+  font-size: 5rem;
+}
+
+.right {
+  color: green;
+}
+.false {
+  color: red;
+}
