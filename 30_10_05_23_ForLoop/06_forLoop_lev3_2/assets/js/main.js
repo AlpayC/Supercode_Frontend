@@ -18,6 +18,5 @@ for (let i = 0; i < numArr.length; i++) {
       }.</p>`;
     });
   } else {
-    output.innerHTML += `<p>Die Zahl ${num} ist nicht durch andere Zahlen (außer 1 und sich selbst) teilbar.</p>`;
   }
 }
