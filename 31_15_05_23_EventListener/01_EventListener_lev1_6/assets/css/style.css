@@ -1,0 +1,38 @@
+@font-face {
+  font-family: ;
+  src: url();
+}
+
+:root {
+  --var1: ;
+  --var2: ;
+  --var3: ;
+}
+
+/* GLOBAL SETTINGS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* HEADER  */
+body {
+  font-family: sans-serif;
+}
+
+select {
+  padding: 15px 20px;
+  border: none;
+  border-bottom: 1px solid #e4e4e4;
+  font-size: 2rem;
+  outline: 0;
+}
