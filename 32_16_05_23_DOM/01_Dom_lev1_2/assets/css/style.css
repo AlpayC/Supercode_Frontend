@@ -1,0 +1,41 @@
+@font-face {
+  font-family: ;
+  src: url();
+}
+
+:root {
+  --var1: ;
+  --var2: ;
+  --var3: ;
+}
+
+/* GLOBAL SETTINGS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* HEADER  */
+.style {
+  display: inline-block;
+  border-radius: 5px;
+  background: #666;
+  color: white;
+  padding: 5px;
+}
+
+.example {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}

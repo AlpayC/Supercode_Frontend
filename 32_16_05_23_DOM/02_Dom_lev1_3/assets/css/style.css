@@ -1,0 +1,48 @@
+@font-face {
+  font-family: ;
+  src: url();
+}
+
+:root {
+  --var1: ;
+  --var2: ;
+  --var3: ;
+}
+
+/* GLOBAL SETTINGS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* HEADER  */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  background: #3fc5f0;
+  color: #eef5b2;
+}
+
+button {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  background: #42dee1;
+  color: #eef5b2;
+  font-weight: bold;
+}
+
+output {
+  display: block;
+  padding: 20px;
+  font-weight: bold;
+}
