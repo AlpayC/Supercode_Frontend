@@ -56,21 +56,21 @@ const priceChangeFilter = edelMetallPreise.filter(
 console.log(priceChangeFilter);
 
 function createTable() {
-  let table = document.createElement("table"); //makes a table element for the page
+  let table = document.createElement("table"); //erstellt eine Tabelle im HTML
 
   table.insertAdjacentHTML(
     "beforeend",
     `<tr class='firstRow'><th>${Object.keys(edelMetallPreise[0])[0]}</th><th>${
       Object.keys(edelMetallPreise[0])[1]
     }</th><th>${Object.keys(edelMetallPreise[0])[2]}</th></tr>`
-  ); //adds the first row that contains the sections for the table
+  ); //erstellt die Tabellenköpfe mit den Keys-Namen aus dem Array
 
   for (
-    var i = 0;
+    let i = 0;
     i < edelMetallPreise.length;
-    i++ //loops through the array
+    i++ //loopt durch den Array
   ) {
-    //add info from the array into this
+    //erstellt die Tabellensätze pro Tabellenzeile
     table.insertAdjacentHTML(
       "beforeend",
       "<tr><td>" +
