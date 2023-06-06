@@ -1,0 +1,17 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 2rem;
+  color: green;
+  font-size: 2rem;
+}
+.link-container {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.active {
+  color: green;
+  font-weight: 900;
+}

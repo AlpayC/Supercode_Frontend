@@ -1,0 +1,10 @@
+header {
+  background: url("./bg-home.png") no-repeat top;
+  background-size: cover;
+  height: 50vh;
+}
+
+main {
+  padding: 10rem;
+  color: green;
+}
