@@ -1,0 +1,18 @@
+.blog-picture {
+  width: 90%;
+  height: 50%;
+}
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blog-detail-site {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 5rem;
+}

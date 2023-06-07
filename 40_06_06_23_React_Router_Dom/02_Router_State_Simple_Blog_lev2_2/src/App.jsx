@@ -1,8 +1,8 @@
-import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
 import "./App.css";
+import BlogDetails from "./pages/BlogDetails";
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
             path="/blog"
             element={<Blog pizza="Hayyyy ich bin Blog in der Props" />}
           />
+          <Route path="/blog/:id" element={<BlogDetails />} />
         </Routes>
       </BrowserRouter>
     </>
