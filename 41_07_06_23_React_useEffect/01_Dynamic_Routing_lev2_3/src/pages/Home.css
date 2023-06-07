@@ -1,0 +1,10 @@
+.car-list-item {
+  text-align: center;
+  background-color: rgb(192, 192, 192);
+  padding: 1rem;
+}
+.car-list {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+}
