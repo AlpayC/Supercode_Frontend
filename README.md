@@ -1,1 +1,1 @@
-﻿# Supercode
+﻿# Supercode Frontend Bootcamp
